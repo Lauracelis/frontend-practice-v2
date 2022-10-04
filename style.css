@@ -1,0 +1,13 @@
+div > p{
+    color: blueviolet;
+}
+
+div + h2{
+    background-color: blue;
+}
+p ~ h2{
+background-color: yellow;
+}
+div{
+    border: solid 1px palevioletred;
+}

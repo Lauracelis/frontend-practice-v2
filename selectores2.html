@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color:LightCoral;
+        }
+        div > div{
+            background: plum;
+        }
+        .mor{
+            color: aquamarine;
+            background-color: bisque;
+        }
+        div + section{
+            background-color: lightgreen;
+        }
+        div ~ p{
+            color: khaki;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>hola</p> <!-- selector descendiente-->
+            <div class="mor">mor</div> <!-- selector hijo directo ">" -->
+        </div>
+    </div>
+    <p>clase de selectores</p> <!-- selector hermanos "+"-->
+    <p>clase de selectores</p> <!-- selector hermanos "+"-->
+    <section>
+        es lo mejor 
+    </section> <!-- selector adyacente "~" alt126-->
+    <div>
+        Paltzi master
+    </div>
+   
+</body>
+</html>
